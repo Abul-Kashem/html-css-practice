@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* news-letter css start */
+form {
+  display: flex;
+  width: 50%;
+  border: 1px solid coral;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 1rem 2rem;
+}
+
+input[type="email"] {
+  /* border: 1px solid lightcoral; */
+  font-size: 2rem;
+  flex-grow: 1;
+  color: coral;
+}
+input[type="email"]::placeholder {
+  color: coral;
+}
+
+input[type="submit"] {
+  background: coral;
+  color: white;
+  font-size: 2rem;
+  flex-grow: 1;
+}
+
+/* news-letter css end */

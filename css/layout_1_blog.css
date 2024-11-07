@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav Section */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0aa1dd;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+.navigation__link {
+  color: white;
+  text-decoration: none;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  transition: all 0.25s ease-in;
+  font-size: 1.5rem;
+}
+.navigation__link:hover {
+  background-color: white;
+  color: #0aa;
+}
+
+/* Blog Section */
+
+.section-padding {
+  margin: 4rem;
+}
+.blog-posts {
+  display: flex;
+}
+.blog-posts__post {
+  margin: 2rem;
+}
+.blog-posts__post--img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.blog-posts__post--date {
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  background: cadetblue;
+}
+.blog-posts__post--title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.blog-posts__post--description {
+  font-size: 1.5rem;
+}
+
+/* coffee blog section */
+
+.coffee-blog {
+  margin: 8rem 5rem;
+}
+.coffee-title {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.blog-img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.text {
+  text-align: center;
+}
+
+.item-title {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.item-description {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+

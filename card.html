@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="card.css" /> -->
+
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+        padding: 1rem;
+        text-align: center;
+        
+      }
+
+      .item img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Responsive design for smaller screens */
+
+      @media (max-width: 768px) {
+        .container {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="top-collection">
+      <h1>Take a look around</h1>
+
+      <div class="container">
+        <div class="item">
+          <img src="images/12.1.jpg" alt="Tops" />
+
+          <h3>Tops</h3>
+        </div>
+
+        <div class="item">
+          <img src="images/12.2.jpg" alt="Bottoms" />
+
+          <h3>Bottoms</h3>
+        </div>
+
+        <div class="item">
+          <img src="images/12.3.jpg" alt="Dresses" />
+
+          <h3>Dresses</h3>
+        </div>
+
+        <div class="item">
+          <img src="images/12.4.jpg" alt="Accessories" />
+
+          <h3>Accessories</h3>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
